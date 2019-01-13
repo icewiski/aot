@@ -21,7 +21,7 @@ export class Map extends Component {
     this.map = L.map(this.refs.mapContainer, {
       center: [ 5, 20 ],
       zoom: 4,
-      maxZoom: 8,
+      maxZoom: 7,
       minZoom: 4,
       maxBounds: [ [ 50, -30 ], [ -45, 100 ] ]
     })
