@@ -87,7 +87,7 @@ class ViewController {
       }}
     })
   }
-
+//
   /** Load map data from the API */
   async loadMapData () {
     // Download kingdom boundaries
